@@ -1,6 +1,13 @@
 import { CardProps } from "../components/Card";
 import { InfoProps } from "../components/Experience";
 export const projects: CardProps[] = [
+    {img:"https://placehold.co/600x400",
+        title: "Trip Planner",
+        tech:["python","streamlit","SQL"],
+        category:"Database",
+        description:"A trip planner application that allows users to create and manage their travel itineraries. ",
+        gitLink:"https://github.com/0Thomas1/trip_planner-CPMT354-Term-Project-"
+     },
   {
     img: "https://placehold.co/600x400",
     title: "Song value predictor",
